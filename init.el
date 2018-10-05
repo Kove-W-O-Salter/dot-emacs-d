@@ -10,7 +10,8 @@
  '(backup-directory-alist (quote (("." . "/home/kove/.emacs.d/backup"))))
  '(cursor-type (quote (bar . 1)))
  '(inhibit-startup-screen t)
- '(line-spacing 3))
+ '(line-spacing 3)
+ '(package-selected-packages (quote (powershell multiple-cursors))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
