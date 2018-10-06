@@ -11,7 +11,7 @@
  '(cursor-type (quote (bar . 1)))
  '(inhibit-startup-screen t)
  '(line-spacing 3)
- '(package-selected-packages (quote (powershell multiple-cursors))))
+ '(package-selected-packages (quote (haskell-mode php-mode powershell multiple-cursors))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
