@@ -9,9 +9,14 @@
  ;; If there is more than one, they won't work right.
  '(backup-directory-alist (quote (("." . "/home/kove/.emacs.d/backup"))))
  '(cursor-type (quote (bar . 1)))
+ '(custom-safe-themes
+   (quote
+    ("bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" default)))
  '(inhibit-startup-screen t)
  '(line-spacing 3)
- '(package-selected-packages (quote (haskell-mode php-mode powershell multiple-cursors))))
+ '(package-selected-packages
+   (quote
+    (fish-mode haskell-mode php-mode powershell multiple-cursors))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -66,7 +71,7 @@
 
 ;; Set theme to 'spacemacs-dark'.
 ;; <original>
-;; (load-theme 'spacemacs-dark)
+(load-theme 'spacemacs-dark)
 
 ;; Enable auto auto completion of character denotion pairs.
 ;; <original>
