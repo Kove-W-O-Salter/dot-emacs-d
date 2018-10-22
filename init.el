@@ -16,7 +16,7 @@
  '(line-spacing 3)
  '(package-selected-packages
    (quote
-    (fish-mode haskell-mode php-mode powershell multiple-cursors))))
+    (yaml-mode fish-mode haskell-mode php-mode powershell multiple-cursors))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
