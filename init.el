@@ -1,5 +1,3 @@
-
-
 ;; Some stuff emacs generated.
 ;; <emacs-generated>
 (custom-set-variables
@@ -76,3 +74,7 @@
 ;; Enable auto auto completion of character denotion pairs.
 ;; <original>
 (electric-pair-mode 't)
+
+;; Disable indentation via tabs.
+;; <https://www.emacswiki.org/emacs/IndentationBasics>
+(setq-default indent-tabs-mode nil)
