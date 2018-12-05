@@ -3,14 +3,15 @@
 
 (setq mc/cmds-to-run-for-all
       '(
-	haskell-indentation-common-electric-command
-	kill-region
-	upcase-region
-	))
+        haskell-indentation-common-electric-command
+        indent-for-tab-command
+        kill-region
+        upcase-region
+        ))
 
 (setq mc/cmds-to-run-once
       '(
-	c-electric-pound
-	c-electric-slash
-	mouse-set-region
-	))
+        c-electric-pound
+        c-electric-slash
+        mouse-set-region
+        ))
